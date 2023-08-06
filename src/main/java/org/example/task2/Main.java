@@ -17,7 +17,7 @@ public class Main {
 
         Map<String, Integer> words = getRepitedNamesMap(names);
         List<ArrayList<Object>> sortedLst = sortedNames(words);
-        System.out.println("Количество повторяющихся имён:");
+        System.out.println("Повторяющиеся имена:");
         for (int i = 0; i < sortedLst.size(); i++) {
             System.out.println("Имя "+sortedLst.get(i).get(0) + " встречается " + sortedLst.get(i).get(1) + " раза.");
         }
